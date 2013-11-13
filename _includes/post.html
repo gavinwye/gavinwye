@@ -1,0 +1,11 @@
+{% include _header.html %}
+			
+	<!-- <section> -->
+
+		<h1>{{ post.title }}</h1>
+		<p class="meta">{{ post.date | date_to_long_string }}</p>
+		{{ content }}
+
+	<!-- </section> -->
+
+{% include _footer.html %}
