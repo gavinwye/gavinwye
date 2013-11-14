@@ -1,6 +1,6 @@
 Gavin Wye
 ========
-## Lying awake dreaming
+Lying awake dreaming
 
 ### GitHub pages
 
