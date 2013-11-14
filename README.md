@@ -1,7 +1,6 @@
-gavinwye
+Gavin Wye
 ========
-
-A public place to keep things
+## Lying awake dreaming
 
 ### GitHub pages
 
