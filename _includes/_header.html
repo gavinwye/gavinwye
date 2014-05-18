@@ -5,7 +5,6 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -14,7 +13,7 @@
   <!-- @stylesheet normalize style -->
   <!-- @javascript jquery-1.8.3.min app -->
   
-  <link href="/_assets/favicon.ico" rel="shortcut icon">
+  <link href="/assets/favicon.ico" rel="shortcut icon">
   <!-- <link href="@path apple-touch-icon.png" rel="apple-touch-icon"> -->
   
   <title>gavinwye.com | {{ site.name }}</title>
@@ -33,18 +32,14 @@
   <!-- // To  use the fonts in your embed code without your hosted CSS, delete the snippet above and uncomment this block -->
   <script type="text/javascript">var __tcaExcludeHostedCss=true;</script>
   <script type="text/javascript" src="http://typecast.com/project_css/gavinwye/90693a65e910e.js"></script>        
-  
-  
 </head>
 
 <body>
 
   <header>
-  <div>
-    <h1 class="title">Lying Awake Dreaming</h1>
-    <!-- <h1 class="title">{{ site.name }}</h1> -->
-    <!-- <p class="author">{{ site.description }}</p> -->
-    <p class="author">The rambelings of an <del>agency</del> designer</p>
+    <div>
+    <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+    <p class="author">{{ site.description }}</p>
     </div>
   </header>
   {% include _nav.html %}

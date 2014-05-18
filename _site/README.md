@@ -1,4 +1,2 @@
-gavinwye
-========
-
-A public place to keep things
+# Lying Awake Dreaming
+The rambelings or an <del>agency</del> designer
