@@ -58,152 +58,45 @@
 
 
 </nav>
-  <section>
+
+
+<!-- <div class="post"> -->
+<section>
 	<article>
-		
-		
-		<h1>
+		<h1>When rules go wrong</h1>
+		<p class="meta">22 Aug 2007</p>
+		<p>I use Apple&#39;s Mail.app which is fine it is integrated nicely in to my work flow, It links to <a title="Daylight" href="http://marketcircle.com/daylite/index.html" target="_blank">Daylight</a> via DMI and most of the time it just works. However I get a lot of mail and I&#39;ve been getting more and more busy lately so I have stopped checking the not important stuff. The sort of stuff that I don&#39;t want to junk but don&#39;t want to read now.</p>
 
+<p>So I created a rule quickly (which is where everything went wrong) to put everything from the people whose mail I hadn&#39;t read in the last month in a folder called NQJBNTI (Not Quite Junk But Not That Important). I did it just before <a title="Business Bricks" href="http://upcoming.yahoo.com/event/215585/" target="_blank">Business Bricks</a> on Friday and then someone came in so I didn&#39;t finish the task properly. I just shut my laptop and forgot about it.</p>
 
-    <a href="/marathon-training-plan">Marathon Traning Plan</a>
+<p>Because I had forgotten about the rule and not checked my mail for the rest of Friday or the weekend by the time it got to Monday and I checked my mail and didn&#39;t get some mails from people who had sent them to me I immediately thought it must have been a problem with the mail server.</p>
 
-</h1>
+<p>I spoke to <a title="Symon" href="http://homepage.mac.com/symonc/" target="_blank">Symon</a> and he told me to telnet in to the mail server so that I could see if there was mail there (this is apparently the same protocol as mail.app uses) so that proves that mail is working. I installed Packet Peeper to sniff the packets and everything is working fine. I created a new mail account and could receive mail on that account. So the server is working and so is mail.app. Then Dave said the only thing left is a problem with rules but I can&#39;t see that being a problem! Rules I did something in there on Friday! I checked and the rule was set to exclude all mail from my in box unless it was from one person. Doh!</p>
 
-<p class="meta">
+<p>So the moral of the story is check the simple stuff first, and try and remember what you did yesterday!</p>
 
+<p>Anyway the real point of this post is here&#39;s how to telnet in to a mail server which I found really cool. I love stuff like this and here&#39;s a record for when I forget.</p>
 
-    04 June 2014
+<p>Open the terminal
+at the prompt ($) type telnet mailservername 110
+you should get a message back like Ok hello there
+type the following
+USER username
+It will then ask for the password for the account type:
+PASS password
+you should then get a logged in message
+type list
+you will then see a list of all the mail on the serve to read the mail type
+retr 1 (where 1 is the number of the mail)
+to quit type quit</p>
 
-</p>
-<p>I&#39;m going to be running a marathon in August. I&#39;ve never run a marathon before and I&#39;ve got two months to train so this is the home made plan I&#39;m working to. </p>
-
-<p>There&#39;s one simple rule. Run a marathon every week.</p>
-
-<p><a href="http://www.strava.com/athletes/267646">Keep tabs on me on Strava.com</a></p>
-
-<h2>Week 1</h2>
-
-<ul>
-<li>Monday: Rest &#x2713;</li>
-<li>Tuesday: 4 Miles &#x2713;</li>
-<li>Wednesday: 4 Miles &#x2713;</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 6 Miles</li>
-<li>Sunday: 8 Miles</li>
-</ul>
-
-<h2>Week 2</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 5 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 3 Miles</li>
-<li>Sunday: 10 Miles</li>
-</ul>
-
-<h2>Week 3</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 4 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 6 Miles</li>
-<li>Sunday: 8 Miles</li>
-</ul>
-
-<h2>Week 4</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 4 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 3 Miles</li>
-<li>Sunday: 13 Miles</li>
-</ul>
-
-<h2>Week 5</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 4 Miles</li>
-<li>Thursday: Rest (due to traveling)</li>
-<li>Friday: 4 Miles</li>
-<li>Saturday: 4 Miles</li>
-<li>Sunday: 10 Miles</li>
-</ul>
-
-<h2>Week 6</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 6 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: 2 Miles</li>
-<li>Saturday: 10 Miles</li>
-<li>Sunday: Rest (due to traveling)</li>
-</ul>
-
-<h2>Week 7</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 5 Miles</li>
-<li>Wednesday: 6 Miles</li>
-<li>Thursday: 5 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 2 Miles</li>
-<li>Sunday: 13 Miles</li>
-</ul>
-
-<h2>Week 8</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 6 Miles</li>
-<li>Thursday: 3 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 2 Miles</li>
-<li>Sunday: 20 Miles</li>
-</ul>
-
-<h2>Week 9</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 8 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 4 Miles</li>
-<li>Sunday: 4 Miles</li>
-</ul>
-
-<h2>Week 9 Marathon week</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 4 Miles</li>
-<li>Thursday: Rest</li>
-<li>Friday: 26 Miles</li>
-<li>Saturday: Rest</li>
-<li>Sunday: Rest</li>
-</ul>
-	
 	</article>
 </section>
-  
+<!-- </div> -->
+
+
+
+
 			<footer>
 
 			<section>

@@ -58,152 +58,42 @@
 
 
 </nav>
-  <section>
+
+
+<!-- <div class="post"> -->
+<section>
 	<article>
-		
-		
-		<h1>
+		<h1>Questions About Moving To Jekyll</h1>
+		<p class="meta">19 Aug 2013</p>
+		<p>I’ve been thinking for a while that I wanted to move this blog away from Wordpress. I don’t use all of the features that Wordpress has to offer so <a href="http://jekyllrb.com/">Jekyll</a> seems a bit more simple, a bit more light weight.</p>
 
+<p>There are three main thoughts driving this:</p>
 
-    <a href="/marathon-training-plan">Marathon Traning Plan</a>
+<ol>
+<li>On the face of it Jekyll also offers me more options to easily customise pages and things quickly on the fly and it fits more with my most recent thoughts about how I want to handle my content.</li>
+<li>I really don’t want my content locked away in a database, making it hard to get at in the future, when I change my mind. Where I want it, is in documents that are easy to repurpose for who knows what in the future. I write most things in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> so at this point in time Jekyll seems to fit with these current thoughts.</li>
+<li>I exchanged <a href="https://twitter.com/gavinwye/status/368674918809890817">Tweets</a> with <a href="https://twitter.com/markirby">@markkirby</a> at the weekend, He’s thinking of doing the same and we said we would exchange notes at <a href="http://2013.dconstruct.org/">dConstruct</a> in September, I don’t want to turn up empty handed.</li>
+</ol>
 
-</h1>
+<p>I’ll try to document the process but all I have at the moment are the questions below which I’ll come back and answer as and when.</p>
 
-<p class="meta">
+<ol>
+<li>Should I host the static pages on a server? I’ll host in in AWS anyway but do I need the extra power of the server</li>
+<li>Should I try to set an <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">AWS bucket</a> and serve it from there?</li>
+<li>If I set up an S3 bucket can I find a good simple way to mount it locally so that the deployment is easy?</li>
+<li>Can I script deployment to this S3 bucket so that when I write something and I’m ready to be published it’s quick and easy?</li>
+<li>Can I use <a href="http://hammerformac.com/">Hammer For Mac</a> in some way or will I have to use <a href="http://middlemanapp.com/">Middleman</a>?</li>
+</ol>
 
+<p>I’ll update this post as I go with more questions and answers as I come to them. But for the time being if you have answers to any of these please use the comments below.</p>
 
-    04 June 2014
-
-</p>
-<p>I&#39;m going to be running a marathon in August. I&#39;ve never run a marathon before and I&#39;ve got two months to train so this is the home made plan I&#39;m working to. </p>
-
-<p>There&#39;s one simple rule. Run a marathon every week.</p>
-
-<p><a href="http://www.strava.com/athletes/267646">Keep tabs on me on Strava.com</a></p>
-
-<h2>Week 1</h2>
-
-<ul>
-<li>Monday: Rest &#x2713;</li>
-<li>Tuesday: 4 Miles &#x2713;</li>
-<li>Wednesday: 4 Miles &#x2713;</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 6 Miles</li>
-<li>Sunday: 8 Miles</li>
-</ul>
-
-<h2>Week 2</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 5 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 3 Miles</li>
-<li>Sunday: 10 Miles</li>
-</ul>
-
-<h2>Week 3</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 4 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 6 Miles</li>
-<li>Sunday: 8 Miles</li>
-</ul>
-
-<h2>Week 4</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 4 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 3 Miles</li>
-<li>Sunday: 13 Miles</li>
-</ul>
-
-<h2>Week 5</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 4 Miles</li>
-<li>Thursday: Rest (due to traveling)</li>
-<li>Friday: 4 Miles</li>
-<li>Saturday: 4 Miles</li>
-<li>Sunday: 10 Miles</li>
-</ul>
-
-<h2>Week 6</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 6 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: 2 Miles</li>
-<li>Saturday: 10 Miles</li>
-<li>Sunday: Rest (due to traveling)</li>
-</ul>
-
-<h2>Week 7</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 5 Miles</li>
-<li>Wednesday: 6 Miles</li>
-<li>Thursday: 5 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 2 Miles</li>
-<li>Sunday: 13 Miles</li>
-</ul>
-
-<h2>Week 8</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 6 Miles</li>
-<li>Thursday: 3 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 2 Miles</li>
-<li>Sunday: 20 Miles</li>
-</ul>
-
-<h2>Week 9</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 8 Miles</li>
-<li>Thursday: 4 Miles</li>
-<li>Friday: Rest</li>
-<li>Saturday: 4 Miles</li>
-<li>Sunday: 4 Miles</li>
-</ul>
-
-<h2>Week 9 Marathon week</h2>
-
-<ul>
-<li>Monday: Rest</li>
-<li>Tuesday: 4 Miles</li>
-<li>Wednesday: 4 Miles</li>
-<li>Thursday: Rest</li>
-<li>Friday: 26 Miles</li>
-<li>Saturday: Rest</li>
-<li>Sunday: Rest</li>
-</ul>
-	
 	</article>
 </section>
-  
+<!-- </div> -->
+
+
+
+
 			<footer>
 
 			<section>
