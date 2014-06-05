@@ -1,5 +1,7 @@
 name: Lying Awake Dreaming
 description: The rambelings of an <del>agency</del> designer
 markdown: redcarpet
+# paginate: 5
+permalink: /:title
 highlighter: pygments
 permalink: /:title
