@@ -5,3 +5,4 @@ markdown: redcarpet
 permalink: /:title
 highlighter: pygments
 permalink: /:title
+baseurl: /gavinwye
