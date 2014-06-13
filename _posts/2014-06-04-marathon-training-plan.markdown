@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Marathon Traning Plan
+title: Virgin Strive Marathon Traning Plan
 status: publish
 type: post
 published: true
@@ -17,10 +17,10 @@ There's one simple rule. Run a marathon every week.
 - Monday: Rest &#x2713;
 - Tuesday: 4 Miles &#x2713;
 - Wednesday: 4 Miles &#x2713;
-- Thursday: 4 Miles
-- Friday: Rest
-- Saturday: 6 Miles
-- Sunday: 8 Miles
+- Thursday: 4 Miles &#x2713;
+- Friday: Rest &#x2713;
+- Saturday: 6 Miles &#x2713;
+- Sunday: -8 Miles- 4 miles &#x2713;
 
 ## Week 2
 
