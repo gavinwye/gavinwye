@@ -20,7 +20,7 @@ There's one simple rule. Run a marathon every week.
 - Thursday: 4 Miles &#x2713;
 - Friday: Rest &#x2713;
 - Saturday: 6 Miles &#x2713;
-- Sunday: -8 Miles- 4 miles &#x2713;
+- Sunday: <del>8 Miles</del> 4 miles &#x2713;
 
 ## Week 2
 
