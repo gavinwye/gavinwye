@@ -10,9 +10,9 @@ When something is an experiment it has a purpose; to either validate or invalida
 
 ## SkillSwap London
 
-I'm bringing SkillSwap to London. SkillSwap is a series of tiny free speaking events they have been running in [Brighton](brighton.skillswap.org) and [Bristol](bristolskillswap.org) for ages. Now it's London's turn. The first event is in August. Titled [Talking About Design](skillswaplondon-august.eventbrite.co.uk) we have two very fine speakers [Andy Budd](andybudd.com) and Jonty Sharples](3tych.com).
+I'm bringing SkillSwap to London. SkillSwap is a series of tiny free speaking events they have been running in [Brighton](brighton.skillswap.org) and [Bristol](bristolskillswap.org) for ages. Now it's London's turn. The first event is in August. Titled [Talking About Design](skillswaplondon-august.eventbrite.co.uk) we have two very fine speakers [Andy Budd](andybudd.com) and [Jonty Sharples](3tych.com).
 
-Website coming soon
+Since I moved to Newcastle in 2012 I'm not going to be able to run another SkillSwap London. If you are interested in taking over the mantel get in touch and I'll hand over the twitter account and point you in the right direction.
 
 ## [UX Camp Brighton][1] 
 
