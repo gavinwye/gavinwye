@@ -1,16 +1,24 @@
 {% include _header.html %}
-
 <section>
 	<article>
 		<h1>{{ page.title }}</h1>
-		<p class="meta">{{ page.date | date_to_string }}</p>
+		<p class="meta">{{ page.date | date_to_long_string }}</p>
 		{{ content }}
+		<p>
+		<a href="https://twitter.com/share">Discuss on Twitter</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</p>
 	</article>
 </section>
+<br><br>
 <nav>
 	<ul class="nav">
-		<li><a href="#">Previous post</a></li>
-		<li><a href="#">Next post</a></li>
+		{% if page.previous.url %}
+		<li><a href="{{page.previous.url}}">Previous post</a></li>
+		{% endif %}
+		{% if page.next.url %}
+		<li><a href="{{page.next.url}}">Next post</a></li>
+		{% endif %}
 	</ul>
 </nav>
 
