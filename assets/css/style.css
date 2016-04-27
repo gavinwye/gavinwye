@@ -15,8 +15,7 @@ header {
 	padding-top: 36px;
 	padding-bottom: 38px;
 	margin-bottom: 36px;
-	border-bottom: solid 2px rgba(237,21,14,1);
-	/*border-bottom: solid 2px rgba(173,57,53,1);*/
+	border-bottom: solid 2px rgba(173,57,53,1);
 	background-color: rgba(237,237,237,1);
 	/*color: rgba(237,21,14,1);*/
 }
@@ -25,6 +24,10 @@ section, nav, header div {
 	margin: 0 auto;
 	/*width: 670px;*/
 	width: 80%
+}
+
+img{
+width: 100%;
 }
 
 
