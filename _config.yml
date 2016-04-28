@@ -1,6 +1,6 @@
 name: Gavin Wye
 description: Independent User Experience consultant
-markdown: redcarpet
+markdown: kramdown
 # paginate: 5
 permalink: /:title
 highlighter: pygments
