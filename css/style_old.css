@@ -1,0 +1,140 @@
+h1 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 80px;
+	line-height: 100px;
+	margin-bottom: 60px;
+}
+
+h1 span {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-style: italic;
+	font-size: 35px;
+	line-height: normal;
+	/* color: grey; */
+	display: block;
+	}
+
+h2 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 60px;
+	line-height: 100px;
+	margin-bottom: 60px;
+}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+body {
+	font-family: 'Barlow', sans-serif;
+	margin: 112px;
+	width: 60%;
+}
+
+p {
+	font-size: 45px;
+	line-height: 65px;
+	margin-bottom: 65px;
+}
+
+a {
+	font-size: 45px;
+	line-height: 65px;
+	margin-bottom: 65px;
+  color: red;
+  text-decoration: underline;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: purple;
+}
+/* Notes */
+/* font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif; */
+
+
+/* html, .root {
+  font-size: 45px;
+  line-height: 67px;
+}
+body, .article {
+  font-family: 'Barlow', sans-serif;
+  font-size: 45px;
+  line-height: 67px;
+  max-width: 843px;
+  margin: auto;
+}
+h1, .h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 125px;
+  line-height: 134px;
+  margin-top: 67px;
+  margin-bottom: 67px;
+}
+h2, .h2 {
+  f;
+  font-size: 75px;
+  line-height: 134px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h3, .h3 {
+  font-size: 45px;
+  line-height: 67px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h4, .h4 {
+  font-size: 45px;
+  line-height: 67px;
+  margin-top: 0px;
+  margin-bottom: 67px;
+}
+h5, .h5 {
+  font-size: 45px;
+  line-height: 67px;
+  margin-top: 0px;
+  margin-bottom: 67px;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0px;
+  margin-bottom: 67px;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+} */

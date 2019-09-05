@@ -1,8 +1,0 @@
-name: Gavin Wye
-description: Independent User Experience consultant
-markdown: kramdown
-# paginate: 5
-permalink: /:title
-highlighter: rouge
-permalink: /:title
-baseurl: /gavinwye
