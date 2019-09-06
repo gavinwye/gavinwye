@@ -73,6 +73,12 @@ hr, .hr {
 a, b, i, strong, em, small, code {
   line-height: 0;
 }
+i{
+  font-style: italic;
+}
+b{
+  font-weight: bolder; 
+}
 sub, sup {
   line-height: 0;
   position: relative;
@@ -94,7 +100,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a:active {
+a:active, .selected {
   color: black;
 }
 
