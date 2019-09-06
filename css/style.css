@@ -25,9 +25,12 @@ span {
 	line-height: 1.48888889em;
 	/* margin-bottom: 1.48888889em; */
 	/* margin-top: 1.48888889em; */
-	/* color: grey; */
+	color: #5C5757;
 	display: block;
 	}
+  span b{
+    color: black;
+  }
 h2, .h2 {
   font-size: 1.66666667em;
 	font-weight: 600;
