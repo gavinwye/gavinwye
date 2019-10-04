@@ -112,6 +112,10 @@ a:visited {
   color: purple;
 }
 
+a:visited.selected {
+  color: black;
+}
+
 footer a{
 	font-size: 0.778em
 }
