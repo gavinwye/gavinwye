@@ -113,7 +113,7 @@ a:visited {
 }
 
 a:visited.selected {
-  color: black;
+  color: black; 
 }
 
 footer a{
